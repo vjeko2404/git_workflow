@@ -23,6 +23,19 @@ It's designed to formalize best practices (like syncing from upstream before bra
 -   **Self-Contained:** A single script with no external dependencies other than `git` (and `gh` for the best PR experience).
     
 -   **Per-Project Config:** Saves your preferences (remote names, etc.) to a `.git/gitflowrc` file, keeping your working directory clean.
+
+
+## Git Concepts for Beginners
+
+This script is built around a common "forking" workflow. Here are the key terms you should know:
+
+-   **`upstream`**: This is the main, original project repository (e..g, `microsoft/vscode`). You "pull" or "fetch" changes _from_ here to keep your project up-to-date. You usually do not have permission to push directly to it.
+    
+-   **`origin`**: This is your personal copy (a "fork") of the main project (e.g., `your-username/vscode`). You have full control over this repository. You push your changes _to_ `origin` and then open a "Pull Request" to `upstream`.
+    
+-   **`branch`**: Think of this as a separate workspace. You create a new branch (e.g., `feature/add-new-button`) from the `main` branch, make your changes on it, and then merge it back. This keeps your `main` branch clean and stable.
+    
+-   **Pull Request (PR)**: This is a formal request to merge your changes (from your `origin` fork's branch) into the `upstream` project's `main` branch. It's where code reviews and discussions happen.
     
 
 ## Installation
