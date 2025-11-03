@@ -95,4 +95,4 @@ It's designed to formalize best practices (like syncing from upstream before bra
 
 ## Detailed Guide
 
-For a complete list of commands and a detailed end-to-end walkthrough, please see the [**How to Use the Git Workflow Script**](https://www.google.com/search?q=git_workflow_usage.md "null") guide.
+For a complete list of commands and a detailed end-to-end walkthrough, please see the [**How to Use the Git Workflow Script**]([https://www.google.com/search?q=git_workflow_usage.md "null"](https://github.com/vjeko2404/git_workflow/blob/main/git_workflow_instructions.md)) guide.
